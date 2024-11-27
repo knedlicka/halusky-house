@@ -61,3 +61,36 @@ body {
   color: black;
   font-family: "Spicy Rice";
 }
+
+@media (max-width: 660px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        width: 100%;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo > a {
+        width: 25%;
+    }
+
+    .logo-img {
+        width: 100%;
+        margin: 5px;
+    }
+}
