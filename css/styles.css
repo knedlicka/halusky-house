@@ -3,6 +3,12 @@ body {
   padding: 0;
 }
 
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 @font-face {
   font-family: "Spicy Rice";
   src: url("../assets/fonts/Spicy\ Rice.ttf") format("truetype");
