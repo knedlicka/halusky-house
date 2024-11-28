@@ -26,6 +26,24 @@
     width: 100%;
 }
 
+.menu-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+}
+
+.menu-button-container > a > button {
+    width: 200px;
+    height: 60px;
+    background: rgb(42, 41, 41);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 @media (max-width: 1120px) {
     .homepage-content {
         display: block;
