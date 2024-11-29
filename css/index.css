@@ -42,7 +42,7 @@
     margin: 40px 0 40px 0;
 }
 
-.menu-button-container > a > button {
+.menu-button-container > form > button {
     width: 200px;
     height: 60px;
     background: rgb(42, 41, 41);
@@ -51,6 +51,10 @@
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.menu-button-container > form > button:hover {
+    background: rgb(222, 163, 12);
 }
 
 @media (max-width: 1120px) {
