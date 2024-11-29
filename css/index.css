@@ -14,16 +14,25 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     width: 80%;
-    margin: 15px;
+    margin: 15px 15px 0 15px;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.img-content {
-    width: 40%;
+.sheep-head {
+    max-width: 400px;
 }
 
-.img-content > img {
-    width: 100%;
+.grass {
+    max-height: 200px;
+}
+
+.images-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 .menu-button-container {
@@ -55,17 +64,9 @@
         width: 100%;
     }
 
-    .img-content {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+    .grass {
+        display: none;
     }
-
-    .img-content > img {
-        width: 40%;
-        margin-bottom: 20px;
-    }
-
 }
 
 @media (max-width: 660px) {
