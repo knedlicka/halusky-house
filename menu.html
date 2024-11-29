@@ -8,234 +8,259 @@
   </head>
   <body>
     <div class="page-wrapper">
-      <nav class="navbar">
+      <nav class="mobile-navbar">
+        <div class="logo-hamburger-container">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="assets/images/halusky-house-high-resolution-logo-grayscale-transparent.png"
+                class="logo-img"
+              />
+            </a>
+          </div>
+
+          <input type="checkbox" id="menu-toggle" />
+          <div class="menu-icon">
+            <label for="menu-toggle">☰</label>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="menu.html" class="nav-link">Menu</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="about-us.html" class="nav-link">About us</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <nav class="desktop-navbar">
         <div class="logo">
-          <a href="index.html"
-            ><img
+          <a href="index.html">
+            <img
               src="assets/images/halusky-house-high-resolution-logo-grayscale-transparent.png"
               class="logo-img"
-          /></a>
+            />
+          </a>
         </div>
+
         <div class="nav-links">
           <a href="index.html" class="nav-link">Home</a>
           <a href="menu.html" class="nav-link">Menu</a>
           <a href="gallery.html" class="nav-link">Gallery</a>
+          <a href="about-us.html" class="nav-link">About us</a>
           <a href="contact.html" class="nav-link">Contact</a>
         </div>
       </nav>
-      
+
       <div class="menu-content">
-
         <div>
-            <h1>Mains</h1>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/mains/halusky1.jpeg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Bryndzove halusky</div>
-                        <div class="menu-item-info">
-                            <div>800g</div>
-                            <div>1.2 €</div>
-                        </div>
-                    </div>
+          <h1>Mains</h1>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/mains/halusky1.jpeg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Bryndzove halusky</div>
+                <div class="menu-item-info">
+                  <div>800g</div>
+                  <div>1.2 €</div>
                 </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/mains/pirohy.jpeg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Potato pirohy</div>
-                        <div class="menu-item-info">
-                            <div>700g</div>
-                            <div>2.6 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/mains/parene-buchty.jpeg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Parene buchty</div>
-                        <div class="menu-item-info">
-                            <div>500g</div>
-                            <div>3.2 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/mains/zemiakove-placky.jpeg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Potato pancakes</div>
-                        <div class="menu-item-info">
-                            <div>300g</div>
-                            <div>1.2 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/mains/suasage.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Grilled sausage</div>
-                        <div class="menu-item-info">
-                            <div>400g</div>
-                            <div>3.5 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/mains/fried-cheese.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Fried cheese</div>
-                        <div class="menu-item-info">
-                            <div>400g</div>
-                            <div>3.2 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/mains/rice-cube.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Ryzovy nakyp</div>
-                        <div class="menu-item-info">
-                            <div>900g</div>
-                            <div>2.3 €</div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/mains/pirohy.jpeg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Potato pirohy</div>
+                <div class="menu-item-info">
+                  <div>700g</div>
+                  <div>2.6 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/mains/parene-buchty.jpeg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Parene buchty</div>
+                <div class="menu-item-info">
+                  <div>500g</div>
+                  <div>3.2 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/mains/zemiakove-placky.jpeg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Potato pancakes</div>
+                <div class="menu-item-info">
+                  <div>300g</div>
+                  <div>1.2 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/mains/suasage.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Grilled sausage</div>
+                <div class="menu-item-info">
+                  <div>400g</div>
+                  <div>3.5 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/mains/fried-cheese.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Fried cheese</div>
+                <div class="menu-item-info">
+                  <div>400g</div>
+                  <div>3.2 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/mains/rice-cube.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Ryzovy nakyp</div>
+                <div class="menu-item-info">
+                  <div>900g</div>
+                  <div>2.3 €</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div>
-            <h1>Soups</h1>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/soups/kapustnica1.jpeg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Kapustnica</div>
-                        <div class="menu-item-info">
-                            <div>500ml</div>
-                            <div>1.5 €</div>
-                        </div>
-                    </div>
+          <h1>Soups</h1>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/soups/kapustnica1.jpeg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Kapustnica</div>
+                <div class="menu-item-info">
+                  <div>500ml</div>
+                  <div>1.5 €</div>
                 </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/soups/fazulova.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Soup with beans</div>
-                        <div class="menu-item-info">
-                            <div>500ml</div>
-                            <div>1.4 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/soups/vegetable-soup.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Vegetable soup</div>
-                        <div class="menu-item-info">
-                            <div>500g</div>
-                            <div>1.4 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/soups/lentils-soup.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Soup with lentils</div>
-                        <div class="menu-item-info">
-                            <div>500ml</div>
-                            <div>1.5 €</div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/soups/fazulova.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Soup with beans</div>
+                <div class="menu-item-info">
+                  <div>500ml</div>
+                  <div>1.4 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/soups/vegetable-soup.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Vegetable soup</div>
+                <div class="menu-item-info">
+                  <div>500g</div>
+                  <div>1.4 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/soups/lentils-soup.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Soup with lentils</div>
+                <div class="menu-item-info">
+                  <div>500ml</div>
+                  <div>1.5 €</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div>
-            <h1>Drinks</h1>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/drinks/tea.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Tea</div>
-                        <div class="menu-item-info">
-                            <div>300ml</div>
-                            <div>1.1 €</div>
-                        </div>
-                    </div>
+          <h1>Drinks</h1>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/drinks/tea.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Tea</div>
+                <div class="menu-item-info">
+                  <div>300ml</div>
+                  <div>1.1 €</div>
                 </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/drinks/kofola.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Kofola</div>
-                        <div class="menu-item-info">
-                            <div>500ml</div>
-                            <div>2.5 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/drinks/beer.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Beer</div>
-                        <div class="menu-item-info">
-                            <div>500ml</div>
-                            <div>2.6 €</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <div class="menu-item-img-container">
-                        <img src="assets/images/menu/drinks/punch.jpg"/>
-                    </div>
-                    <div class="menu-item-text-container">
-                        <div class="menu-item-title">Punch</div>
-                        <div class="menu-item-info">
-                            <div>300ml</div>
-                            <div>3.0 €</div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </div>
 
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/drinks/kofola.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Kofola</div>
+                <div class="menu-item-info">
+                  <div>500ml</div>
+                  <div>2.5 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/drinks/beer.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Beer</div>
+                <div class="menu-item-info">
+                  <div>500ml</div>
+                  <div>2.6 €</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="menu-item-img-container">
+                <img src="assets/images/menu/drinks/punch.jpg" />
+              </div>
+              <div class="menu-item-text-container">
+                <div class="menu-item-title">Punch</div>
+                <div class="menu-item-info">
+                  <div>300ml</div>
+                  <div>3.0 €</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <footer class="footer">
