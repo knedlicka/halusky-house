@@ -1,3 +1,5 @@
+/* Global shared stylesheet */
+
 body {
   margin: 0;
   padding: 0;
@@ -14,6 +16,7 @@ body {
   src: url("../assets/fonts/Spicy\ Rice.ttf") format("truetype");
 }
 
+/* We have a separate navbar for mobile and for desktop */
 .mobile-navbar {
   background-color: beige;
   display: flex;
@@ -111,6 +114,7 @@ body {
     width: 100%;
   }
 
+  /* Emulate hamburger using a checkbox */
   #menu-toggle:checked + .menu-icon + .nav-links {
     display: flex;
   }
@@ -120,7 +124,7 @@ body {
   }
 
   .menu-icon {
-    width: calc(50% - 20px);
+    width: calc(50% - 20px); /* 20px for the right padding */
     display: flex;
     justify-content: right;
     padding-right: 20px;
