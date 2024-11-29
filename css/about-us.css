@@ -1,0 +1,47 @@
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex: 1;
+    align-items: center;
+}
+
+.about-us-heading {
+    font-size: 38px;
+    display: flex;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.about-us-description {
+    width: 50%;
+    font-style: italic;
+    text-align: center;
+}
+
+.video-container {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 800px;
+}
+
+@media (max-width: 1200px) {
+    .about-us-description {
+        width: 70%;
+    }
+
+    .video-container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 660px) {
+    .about-us-description {
+        width: 95%;
+    }
+
+    .video-container {
+        width: 90%;
+    }
+}
+
